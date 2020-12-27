@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 751
+monster.Bestiary = {
+	class = "Mammal",
+	race = BESTY_RACE_MAMMAL,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 2,
+	Locations = "South-east, east and north-east of Thais depending on the Horse Station World Change; \z
+		one in the Gardens of Night (here, unreachable); one near Roswitha in Rathleton."
+	}
+
 monster.health = 75
 monster.maxHealth = 75
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 248
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

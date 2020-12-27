@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 71
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Kazordoon Dwarf Mines, Cyclopolis, Dwacatra, Ferngrims Gate, Dwarf Bridge, \z
+		Mount Sternum Undead Cave, Beregar, Tiquanda Dwarf Cave, Cormaya Dwarf Cave."
+	}
+
 monster.health = 135
 monster.maxHealth = 135
 monster.race = "blood"
 monster.corpse = 6014
 monster.speed = 176
-monster.summonCost = 360
+monster.manaCost = 360
 monster.maxSummons = 0
 
 monster.changeTarget = {

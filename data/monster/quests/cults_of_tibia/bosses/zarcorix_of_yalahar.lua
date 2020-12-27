@@ -18,7 +18,7 @@ monster.maxHealth = 99999999
 monster.race = "blood"
 monster.corpse = 20550
 monster.speed = 200
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -74,6 +74,19 @@ monster.attacks = {
 monster.defenses = {
 	defense = 0,
 	armor = 0
+}
+
+monster.reflects = {
+	{type = COMBAT_PHYSICALDAMAGE, percent = 300},
+	{type = COMBAT_ENERGYDAMAGE, percent = 300},
+	{type = COMBAT_EARTHDAMAGE, percent = 300},
+	{type = COMBAT_FIREDAMAGE, percent = 300},
+	{type = COMBAT_LIFEDRAIN, percent = 300},
+	{type = COMBAT_MANADRAIN, percent = 300},
+	{type = COMBAT_DROWNDAMAGE, percent = 300},
+	{type = COMBAT_ICEDAMAGE, percent = 300},
+	{type = COMBAT_HOLYDAMAGE , percent = 300},
+	{type = COMBAT_DEATHDAMAGE , percent = 300}
 }
 
 monster.elements = {

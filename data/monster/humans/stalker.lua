@@ -13,12 +13,27 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 72
+monster.Bestiary = {
+	class = "Human",
+	race = BESTY_RACE_HUMAN,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Triangle Tower, Drefia, Edron Hero Cave in the Warlock room, White Flower Temple, \z
+		Ghostlands, Shadow Tomb, Ancient Ruins Tomb, Tarpit Tomb, Stone Tomb, Mountain Tomb, Peninsula Tomb, \z
+		Oasis Tomb, Yalahar Trade Quarter and Isle of the Kings."
+	}
+
 monster.health = 120
 monster.maxHealth = 120
 monster.race = "blood"
 monster.corpse = 20511
 monster.speed = 260
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

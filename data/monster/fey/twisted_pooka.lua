@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1436
+monster.Bestiary = {
+	class = "Fey",
+	race = BESTY_RACE_FEY,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 0,
+	Locations = "Feyrist (nighttime) and its underground (all day)."
+	}
+
 monster.health = 700
 monster.maxHealth = 700
 monster.race = "blood"
 monster.corpse = 29114
 monster.speed = 230
-monster.summonCost = 450
+monster.manaCost = 450
 monster.maxSummons = 0
 
 monster.changeTarget = {

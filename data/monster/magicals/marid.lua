@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 104
+monster.Bestiary = {
+	class = "Magical",
+	race = BESTY_RACE_MAGICAL,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 0,
+	Locations = "Kha'zeel, Magician Quarter."
+	}
+
 monster.health = 550
 monster.maxHealth = 550
 monster.race = "blood"
 monster.corpse = 6033
 monster.speed = 234
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 2
 
 monster.changeTarget = {

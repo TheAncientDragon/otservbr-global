@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1264
+monster.Bestiary = {
+	class = "Extra Dimensional",
+	race = BESTY_RACE_EXTRA_DIMENSIONAL,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 0,
+	Locations = "Otherworld."
+	}
+
 monster.health = 1900
 monster.maxHealth = 1900
 monster.race = "venom"
 monster.corpse = 26044
 monster.speed = 280
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

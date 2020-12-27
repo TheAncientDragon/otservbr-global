@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1109
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 2,
+	Locations = "Second floor Glooth Underground Factory, east side during the Minotaurs raid."
+	}
+
 monster.health = 1850
 monster.maxHealth = 1850
 monster.race = "blood"
 monster.corpse = 5983
 monster.speed = 240
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

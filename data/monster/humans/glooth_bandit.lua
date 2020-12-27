@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1119
+monster.Bestiary = {
+	class = "Human",
+	race = BESTY_RACE_HUMAN,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 0,
+	Locations = "Underground Glooth Factory."
+	}
+
 monster.health = 2600
 monster.maxHealth = 2600
 monster.race = "blood"
 monster.corpse = 24251
 monster.speed = 300
-monster.summonCost = 450
+monster.manaCost = 450
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -50,7 +63,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

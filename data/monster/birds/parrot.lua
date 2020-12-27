@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 217
+monster.Bestiary = {
+	class = "Bird",
+	race = BESTY_RACE_BIRD,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 0,
+	Locations = "In the jungle of Tiquanda, Liberty Bay, the Shattered Isles, and as a house pet in Meriana."
+	}
+
 monster.health = 25
 monster.maxHealth = 25
 monster.race = "blood"
 monster.corpse = 6056
 monster.speed = 320
-monster.summonCost = 250
+monster.manaCost = 250
 monster.maxSummons = 0
 
 monster.changeTarget = {

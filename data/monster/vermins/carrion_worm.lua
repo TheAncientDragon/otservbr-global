@@ -13,12 +13,27 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 251
+monster.Bestiary = {
+	class = "Vermin",
+	race = BESTY_RACE_VERMIN,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Edron, Cormaya, Drillworm Caves, Venore Swamps, Liberty Bay, Vandura, \z
+		Hellgate, Fibula Dungeon, Stonehome, Kazordoon, Darashia Rotworm Caves, Port Hope, \z
+		Ancient Temple, Fenrock, Arena and Zoo Quarter."
+	}
+
 monster.health = 145
 monster.maxHealth = 145
 monster.race = "blood"
 monster.corpse = 6069
 monster.speed = 130
-monster.summonCost = 380
+monster.manaCost = 380
 monster.maxSummons = 0
 
 monster.changeTarget = {

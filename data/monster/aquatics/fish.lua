@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 784
+monster.Bestiary = {
+	class = "Aquatic",
+	race = BESTY_RACE_AQUATIC,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 0,
+	Locations = "Fiehonja."
+	}
+
 monster.health = 25
 monster.maxHealth = 25
 monster.race = "undead"
 monster.corpse = 2667
 monster.speed = 140
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -41,7 +54,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = true,
 	staticAttackChance = 95,
-	targetDistance = 0,
+	targetDistance = 1,
 	runHealth = 25,
 	healthHidden = false,
 	isBlockable = false,

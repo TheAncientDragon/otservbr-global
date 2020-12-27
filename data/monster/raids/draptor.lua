@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 695
+monster.Bestiary = {
+	class = "Reptile",
+	race = BESTY_RACE_REPTILE,
+	toKill = 5,
+	FirstUnlock = 2,
+	SecondUnlock = 3,
+	CharmsPoints = 50,
+	Stars = 3,
+	Occurrence = 3,
+	Locations = "Zao, north east of Dragonblaze Peaks during raid. There are up to 10 draptors per raid, \z
+		while 6 of them may also appear in mission 8 of Wrath of the Emperor Quest."
+	}
+
 monster.health = 3000
 monster.maxHealth = 3000
 monster.race = "blood"
 monster.corpse = 13316
 monster.speed = 680
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

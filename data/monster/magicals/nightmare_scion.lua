@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 518
+monster.Bestiary = {
+	class = "Magical",
+	race = BESTY_RACE_MAGICAL,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 0,
+	Locations = "Cemetery Quarter, Alchemist Quarter and in the Arena and Zoo Quarter (unreachable), \z
+		Vengoth Castle, Formorgar Mines, Lower Spike, Robson Isle (single respawn), Krailos."
+	}
+
 monster.health = 1400
 monster.maxHealth = 1400
 monster.race = "blood"
 monster.corpse = 9919
 monster.speed = 440
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -50,7 +64,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

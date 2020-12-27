@@ -13,12 +13,27 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 7
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Ancient Temple in Thais, Orc Fort, below Point of No Return in Outlaw Camp and inside a \z
+		mountain north of it, Orc Peninsula, Folda, Edron Orc cave, Maze of Lost Souls, Elvenbane Castle, \z
+		Foreigner Quarter, Zao Orc Land."
+	}
+
 monster.health = 125
 monster.maxHealth = 125
 monster.race = "blood"
 monster.corpse = 5979
 monster.speed = 190
-monster.summonCost = 360
+monster.manaCost = 360
 monster.maxSummons = 0
 
 monster.changeTarget = {

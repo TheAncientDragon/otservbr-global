@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 261
+monster.Bestiary = {
+	class = "Aquatic",
+	race = BESTY_RACE_AQUATIC,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Goroma (beyond electric barrier), Laguna Islands, Shattered Isles, Underground Port Hope, \z
+		Mistrock, Treasure Island. There is also one underwater next to The Tibianic, however it is unreachable."
+	}
+
 monster.health = 290
 monster.maxHealth = 290
 monster.race = "blood"
 monster.corpse = 6075
 monster.speed = 160
-monster.summonCost = 505
+monster.manaCost = 505
 monster.maxSummons = 0
 
 monster.changeTarget = {

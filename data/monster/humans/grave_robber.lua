@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 867
+monster.Bestiary = {
+	class = "Human",
+	race = BESTY_RACE_HUMAN,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 2,
+	Locations = "Horestis Tomb."
+	}
+
 monster.health = 165
 monster.maxHealth = 165
 monster.race = "blood"
 monster.corpse = 20411
 monster.speed = 190
-monster.summonCost = 435
+monster.manaCost = 435
 monster.maxSummons = 0
 
 monster.changeTarget = {

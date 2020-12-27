@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 242
+monster.Bestiary = {
+	class = "Aquatic",
+	race = BESTY_RACE_AQUATIC,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Malada, Water Elemental Cave near Port Hope, Hrodmir Quara Scout Caves, Quara Grotto, Oramond."
+	}
+
 monster.health = 220
 monster.maxHealth = 220
 monster.race = "blood"
 monster.corpse = 6064
 monster.speed = 140
-monster.summonCost = 480
+monster.manaCost = 480
 monster.maxSummons = 0
 
 monster.changeTarget = {

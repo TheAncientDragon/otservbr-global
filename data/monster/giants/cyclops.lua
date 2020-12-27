@@ -13,12 +13,27 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 22
+monster.Bestiary = {
+	class = "Giant",
+	race = BESTY_RACE_GIANT,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Ab'Dendriel Underground, Cyclopolis, Femor Hills, Kazordoon Prison, Kazordoon Surroundings, \z
+		Maze of the Lost Souls, Mistrock, Mount Sternum, Outlaw Camp, Plains of Havoc, Shadowthorn, \z
+		Thais Northern Dungeon, Thais Surroundings, Thais Underground, Ulderek's Rock, Yalahar Foreigner Quarter."
+	}
+
 monster.health = 260
 monster.maxHealth = 260
 monster.race = "blood"
 monster.corpse = 5962
 monster.speed = 190
-monster.summonCost = 490
+monster.manaCost = 490
 monster.maxSummons = 0
 
 monster.changeTarget = {

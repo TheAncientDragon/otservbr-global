@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 41
+monster.Bestiary = {
+	class = "Mammal",
+	race = BESTY_RACE_MAMMAL,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Jakundaf Desert, Darama, Arena Quarter, Venore Amazon Camp."
+	}
+
 monster.health = 80
 monster.maxHealth = 80
 monster.race = "blood"
 monster.corpse = 5986
 monster.speed = 190
-monster.summonCost = 320
+monster.manaCost = 320
 monster.maxSummons = 0
 
 monster.changeTarget = {

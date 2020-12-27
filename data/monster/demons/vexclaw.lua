@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Vexclaw")
 local monster = {}
 
 monster.description = "a vexclaw"
-monster.experience = 5680
+monster.experience = 6248
 monster.outfit = {
 	lookType = 854,
 	lookHead = 0,
@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1197
+monster.Bestiary = {
+	class = "Demon",
+	race = BESTY_RACE_DEMON,
+	toKill = 2500,
+	FirstUnlock = 100,
+	SecondUnlock = 1000,
+	CharmsPoints = 50,
+	Stars = 4,
+	Occurrence = 0,
+	Locations = "The Dungeons of The Ruthless Seven."
+	}
+
 monster.health = 8500
 monster.maxHealth = 8500
 monster.race = "fire"
 monster.corpse = 25432
 monster.speed = 270
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -49,8 +62,8 @@ monster.flags = {
 	healthHidden = false,
 	isBlockable = false,
 	canWalkOnEnergy = false,
-	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnFire = true,
+	canWalkOnPoison = true,
 	pet = false
 }
 

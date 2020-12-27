@@ -13,12 +13,27 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 393
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 5,
+	FirstUnlock = 2,
+	SecondUnlock = 3,
+	CharmsPoints = 10,
+	Stars = 1,
+	Occurrence = 3,
+	Locations = "They do not have a set respawn spot. They are announced to be stealing presents from a \z
+			random Tibian city and spawn in the aforetold city. \z
+			There are two or three messages that appear on each raid and three massive spawns of goblins."
+	}
+
 monster.health = 80
 monster.maxHealth = 80
 monster.race = "blood"
 monster.corpse = 6002
 monster.speed = 200
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

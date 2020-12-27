@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1674
+monster.Bestiary = {
+	class = "Undead",
+	race = BESTY_RACE_UNDEAD,
+	toKill = 2500,
+	FirstUnlock = 100,
+	SecondUnlock = 1000,
+	CharmsPoints = 50,
+	Stars = 4,
+	Occurrence = 0,
+	Locations = "Deep Desert."
+	}
+
 monster.health = 7800
 monster.maxHealth = 7800
 monster.race = "undead"
 monster.corpse = 5972
 monster.speed = 155
-monster.summonCost = 350
+monster.manaCost = 350
 monster.maxSummons = 0
 
 monster.changeTarget = {

@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 57
+monster.Bestiary = {
+	class = "Human",
+	race = BESTY_RACE_HUMAN,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Edron Hero Cave, Triangle Tower near Thais, Maze of Lost Souls, Deeper Dark Cathedral, \z
+		Isle of the Kings, Trade Quarter."
+	}
+
 monster.health = 240
 monster.maxHealth = 240
 monster.race = "blood"
 monster.corpse = 20371
 monster.speed = 240
-monster.summonCost = 600
+monster.manaCost = 600
 monster.maxSummons = 0
 
 monster.changeTarget = {

@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 257
+monster.Bestiary = {
+	class = "Undead",
+	race = BESTY_RACE_UNDEAD,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Drefia, Goroma, Nargor Undead Cave, hidden caves under Treasure Island, \z
+		single spawn at Liberty Bay ruins, Chyllfroest (unreachable)."
+	}
+
 monster.health = 275
 monster.maxHealth = 275
 monster.race = "undead"
 monster.corpse = 5566
 monster.speed = 210
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 225
+monster.Bestiary = {
+	class = "Human",
+	race = BESTY_RACE_HUMAN,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Dark Cathedral, Vandura (Cult Cave), Foreigner Quarter."
+	}
+
 monster.health = 190
 monster.maxHealth = 190
 monster.race = "blood"
 monster.corpse = 20562
 monster.speed = 230
-monster.summonCost = 480
+monster.manaCost = 480
 monster.maxSummons = 0
 
 monster.changeTarget = {

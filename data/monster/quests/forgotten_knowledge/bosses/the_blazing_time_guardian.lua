@@ -18,7 +18,7 @@ monster.maxHealth = 150000
 monster.race = "undead"
 monster.corpse = 27753
 monster.speed = 340
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 8
 
 monster.changeTarget = {
@@ -112,6 +112,10 @@ monster.elements = {
 	{type = COMBAT_ICEDAMAGE, percent = -40},
 	{type = COMBAT_HOLYDAMAGE , percent = 70},
 	{type = COMBAT_DEATHDAMAGE , percent = 70}
+}
+
+monster.heals = {
+	{type = COMBAT_FIREDAMAGE, percent = 100}
 }
 
 monster.immunities = {

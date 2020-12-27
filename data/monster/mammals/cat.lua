@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 387
+monster.Bestiary = {
+	class = "Mammal",
+	race = BESTY_RACE_MAMMAL,
+	toKill = 25,
+	FirstUnlock = 5,
+	SecondUnlock = 10,
+	CharmsPoints = 1,
+	Stars = 0,
+	Occurrence = 0,
+	Locations = "Carlin, Rookgaard, Factory Quarter, Yalahar, \z
+		The Witches' Cliff (only accessible during a quest), probably more areas."
+	}
+
 monster.health = 20
 monster.maxHealth = 20
 monster.race = "blood"
 monster.corpse = 7637
 monster.speed = 124
-monster.summonCost = 220
+monster.manaCost = 220
 monster.maxSummons = 0
 
 monster.changeTarget = {

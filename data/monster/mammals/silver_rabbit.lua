@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 327
+monster.Bestiary = {
+	class = "Mammal",
+	race = BESTY_RACE_MAMMAL,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 0,
+	Locations = "A lot of places on the Ice Islands and one on Rookgaard (unreachable)."
+	}
+
 monster.health = 15
 monster.maxHealth = 15
 monster.race = "blood"
 monster.corpse = 7338
 monster.speed = 184
-monster.summonCost = 220
+monster.manaCost = 220
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -41,7 +54,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 70,
-	targetDistance = 0,
+	targetDistance = 1,
 	runHealth = 15,
 	healthHidden = false,
 	isBlockable = false,

@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 464
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Femor Hills, Edron Goblin Cave, and Fenrock."
+	}
+
 monster.health = 60
 monster.maxHealth = 60
 monster.race = "blood"
 monster.corpse = 6002
 monster.speed = 132
-monster.summonCost = 310
+monster.manaCost = 310
 monster.maxSummons = 0
 
 monster.changeTarget = {

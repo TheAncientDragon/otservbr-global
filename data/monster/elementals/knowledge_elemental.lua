@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Knowledge Elemental")
 local monster = {}
 
 monster.description = "a knowledge elemental"
-monster.experience = 10710
+monster.experience = 10603
 monster.outfit = {
 	lookType = 1065,
 	lookHead = 0,
@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1670
+monster.Bestiary = {
+	class = "Elemental",
+	race = BESTY_RACE_ELEMENTAL,
+	toKill = 2500,
+	FirstUnlock = 100,
+	SecondUnlock = 1000,
+	CharmsPoints = 50,
+	Stars = 4,
+	Occurrence = 1,
+	Locations = "Secret Library."
+	}
+
 monster.health = 10500
 monster.maxHealth = 10500
 monster.race = "undead"
 monster.corpse = 33349
 monster.speed = 460
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -45,9 +58,9 @@ monster.flags = {
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = false,
-	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnEnergy = true,
+	canWalkOnFire = true,
+	canWalkOnPoison = true,
 	pet = false
 }
 

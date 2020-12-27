@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 270
+monster.Bestiary = {
+	class = "Amphibic",
+	race = BESTY_RACE_AMPHIBIC,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Meriana, Laguna Islands, and other Shattered Isles."
+	}
+
 monster.health = 60
 monster.maxHealth = 60
 monster.race = "blood"
 monster.corpse = 6079
 monster.speed = 320
-monster.summonCost = 305
+monster.manaCost = 305
 monster.maxSummons = 0
 
 monster.changeTarget = {

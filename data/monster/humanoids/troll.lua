@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 15
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 0,
+	Locations = "In many dungeons around Tibia like the troll cave in Thais, south of Carlin (out the east \z
+		exit and down the hole), Island of Destiny, Edron Troll Cave, and in Ab'Dendriel. Also found in Rookgaard."
+	}
+
 monster.health = 50
 monster.maxHealth = 50
 monster.race = "blood"
 monster.corpse = 5960
 monster.speed = 126
-monster.summonCost = 290
+monster.manaCost = 290
 monster.maxSummons = 0
 
 monster.changeTarget = {

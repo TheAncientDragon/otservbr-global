@@ -18,7 +18,7 @@ monster.maxHealth = 20000
 monster.race = "venom"
 monster.corpse = 34660
 monster.speed = 170
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -131,6 +131,10 @@ monster.elements = {
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
+}
+
+monster.heals = {
+	{type = COMBAT_EARTHDAMAGE, percent = 500}
 }
 
 monster.immunities = {

@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 218
+monster.Bestiary = {
+	class = "Bird",
+	race = BESTY_RACE_BIRD,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Around Port Hope, Arena and Zoo Quarter in Yalahar, few on Zao steppes."
+	}
+
 monster.health = 300
 monster.maxHealth = 300
 monster.race = "blood"
 monster.corpse = 6057
 monster.speed = 212
-monster.summonCost = 490
+monster.manaCost = 490
 monster.maxSummons = 0
 
 monster.changeTarget = {

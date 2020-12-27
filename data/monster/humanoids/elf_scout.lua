@@ -13,12 +13,27 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 64
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Yalahar Foreigner Quarter, Shadowthorn, northwest of Ab'Dendriel, north and west of Mount Sternum, \z
+		Hellgate, Maze of Lost Souls, near Knightwatch Tower in the Plains of Havoc. \z
+		Two may also spawn when a Desperate White Deer or an Enraged White Deer is killed."
+	}
+
 monster.health = 160
 monster.maxHealth = 160
 monster.race = "blood"
 monster.corpse = 6012
 monster.speed = 220
-monster.summonCost = 360
+monster.manaCost = 360
 monster.maxSummons = 0
 
 monster.changeTarget = {

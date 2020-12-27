@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 329
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Inukaya, Chyllfroest, Chakoya Iceberg."
+	}
+
 monster.health = 84
 monster.maxHealth = 84
 monster.race = "blood"
 monster.corpse = 7320
 monster.speed = 142
-monster.summonCost = 305
+monster.manaCost = 305
 monster.maxSummons = 0
 
 monster.changeTarget = {

@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 100
+monster.Bestiary = {
+	class = "Undead",
+	race = BESTY_RACE_UNDEAD,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Ankrahmun Tombs, Trapwood, Ramoa, Hellgate, Helheim, Mount Sternum Undead Cave, Deeper Catacombs, \z
+		Cemetery Quarter, Treasure Island, Upper Spike, Lion's Rock."
+	}
+
 monster.health = 330
 monster.maxHealth = 330
 monster.race = "undead"
 monster.corpse = 6029
 monster.speed = 140
-monster.summonCost = 580
+monster.manaCost = 580
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -48,7 +62,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

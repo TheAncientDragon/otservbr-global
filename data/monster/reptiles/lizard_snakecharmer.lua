@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 115
+monster.Bestiary = {
+	class = "Reptile",
+	race = BESTY_RACE_REPTILE,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 0,
+	Locations = "Chor."
+	}
+
 monster.health = 325
 monster.maxHealth = 325
 monster.race = "blood"
 monster.corpse = 6041
 monster.speed = 184
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 6
 
 monster.changeTarget = {
@@ -47,7 +60,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

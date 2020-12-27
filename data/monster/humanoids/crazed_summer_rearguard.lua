@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1733
+monster.Bestiary = {
+	class = "Humanoid",
+	race = BESTY_RACE_HUMANOID,
+	toKill = 2500,
+	FirstUnlock = 100,
+	SecondUnlock = 1000,
+	CharmsPoints = 50,
+	Stars = 5,
+	Occurrence = 0,
+	Locations = "Court of Winter, Dream Labyrinth."
+	}
+
 monster.health = 5300
 monster.maxHealth = 5300
 monster.race = "blood"
 monster.corpse = 34719
 monster.speed = 400
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -79,7 +92,7 @@ monster.loot = {
 	{id = "leaf star", chance = 11100, maxCount = 8},
 	{id = 26185, chance = 1000},
 	{id = "sun fruit", chance = 25800},
-	{id = 26198, chance = 1590},
+	{id = 26198, chance = 1590},-- collar of blue plasma
 	{id = "wood cape", chance = 30000},
 	{id = "small diamond", chance = 800},
 	{id = "yellow gem", chance = 640},
@@ -97,6 +110,10 @@ monster.attacks = {
 monster.defenses = {
 	defense = 20,
 	armor = 70
+}
+
+monster.reflects = {
+	{type = COMBAT_FIREDAMAGE, percent = 70}
 }
 
 monster.elements = {

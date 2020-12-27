@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Grimeleech")
 local monster = {}
 
 monster.description = "a grimeleech"
-monster.experience = 6560
+monster.experience = 7216
 monster.outfit = {
 	lookType = 855,
 	lookHead = 0,
@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1196
+monster.Bestiary = {
+	class = "Demon",
+	race = BESTY_RACE_DEMON,
+	toKill = 2500,
+	FirstUnlock = 100,
+	SecondUnlock = 1000,
+	CharmsPoints = 50,
+	Stars = 4,
+	Occurrence = 0,
+	Locations = "The Dungeons of The Ruthless Seven."
+	}
+
 monster.health = 9500
 monster.maxHealth = 9500
 monster.race = "undead"
 monster.corpse = 25436
 monster.speed = 340
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -50,7 +63,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

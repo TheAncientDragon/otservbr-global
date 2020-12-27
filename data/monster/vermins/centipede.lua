@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 124
+monster.Bestiary = {
+	class = "Vermin",
+	race = BESTY_RACE_VERMIN,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "All around Port Hope and Tiquanda, Dark Cathedral, Vandura, Meriana, Razzachai, \z
+		and Slime cave east of Venore, Arena and Zoo Quarter, Gnarlhound Caves."
+	}
+
 monster.health = 70
 monster.maxHealth = 70
 monster.race = "venom"
 monster.corpse = 6050
 monster.speed = 166
-monster.summonCost = 335
+monster.manaCost = 335
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -48,7 +62,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

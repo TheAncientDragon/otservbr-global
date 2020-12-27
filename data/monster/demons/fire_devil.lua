@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 40
+monster.Bestiary = {
+	class = "Demon",
+	race = BESTY_RACE_DEMON,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Desert Dungeon, Ancient Temple, Magician Tower, Shadow Tomb, Ghostlands, Goroma, \z
+		Plains of Havoc at Ornamented Shield Quest, Spike Sword Quest."
+	}
+
 monster.health = 200
 monster.maxHealth = 200
 monster.race = "blood"
 monster.corpse = 5985
 monster.speed = 180
-monster.summonCost = 530
+monster.manaCost = 530
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -46,7 +60,7 @@ monster.flags = {
 	healthHidden = false,
 	isBlockable = false,
 	canWalkOnEnergy = false,
-	canWalkOnFire = false,
+	canWalkOnFire = true,
 	canWalkOnPoison = false,
 	pet = false
 }

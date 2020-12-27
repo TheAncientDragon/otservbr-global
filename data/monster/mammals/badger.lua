@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 105
+monster.Bestiary = {
+	class = "Mammal",
+	race = BESTY_RACE_MAMMAL,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 0,
+	Locations = "Hrodmir, southern Tiquanda, unannounced raid in Ab'Dendriel and Edron."
+	}
+
 monster.health = 23
 monster.maxHealth = 23
 monster.race = "blood"
 monster.corpse = 6034
 monster.speed = 180
-monster.summonCost = 200
+monster.manaCost = 200
 monster.maxSummons = 0
 
 monster.changeTarget = {

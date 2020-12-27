@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 36
+monster.Bestiary = {
+	class = "Vermin",
+	race = BESTY_RACE_VERMIN,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 0,
+	Locations = "Found in various caves and plains around Tibia (including Rookgaard)."
+	}
+
 monster.health = 26
 monster.maxHealth = 26
 monster.race = "venom"
 monster.corpse = 5974
 monster.speed = 160
-monster.summonCost = 270
+monster.manaCost = 270
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -47,7 +60,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

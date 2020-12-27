@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 437
+monster.Bestiary = {
+	class = "Aquatic",
+	race = BESTY_RACE_AQUATIC,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Svargrond (Sea Serpent Area), Drefia. \z
+		There is also one under Rookgaard Academy, however it is unreachable."
+	}
+
 monster.health = 320
 monster.maxHealth = 320
 monster.race = "blood"
 monster.corpse = 6075
 monster.speed = 380
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

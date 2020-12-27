@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 1234
+monster.Bestiary = {
+	class = "Extra Dimensional",
+	race = BESTY_RACE_EXTRA_DIMENSIONAL,
+	toKill = 2500,
+	FirstUnlock = 100,
+	SecondUnlock = 1000,
+	CharmsPoints = 50,
+	Stars = 4,
+	Occurrence = 0,
+	Locations = "Otherworld."
+	}
+
 monster.health = 2700
 monster.maxHealth = 2700
 monster.race = "venom"
 monster.corpse = 26044
 monster.speed = 302
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -88,7 +101,7 @@ monster.loot = {
 	{id = 26189, chance = 370},
 	{id = 26185, chance = 240},
 	{id = 26199, chance = 240},
-	{id = 26198, chance = 240},
+	{id = 26198, chance = 240},-- collar of blue plasma
 	{id = 26200, chance = 200}
 }
 

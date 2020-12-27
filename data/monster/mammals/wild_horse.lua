@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 730
+monster.Bestiary = {
+	class = "Mammal",
+	race = BESTY_RACE_MAMMAL,
+	toKill = 5,
+	FirstUnlock = 2,
+	SecondUnlock = 3,
+	CharmsPoints = 10,
+	Stars = 1,
+	Occurrence = 3,
+	Locations = "Near the Thais Troll Cave entrance during the Horse Station World Change."
+	}
+
 monster.health = 75
 monster.maxHealth = 75
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 248
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

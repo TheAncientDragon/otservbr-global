@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 114
+monster.Bestiary = {
+	class = "Reptile",
+	race = BESTY_RACE_REPTILE,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Chor, Zzaion and Foreigner Quarter."
+	}
+
 monster.health = 265
 monster.maxHealth = 265
 monster.race = "blood"
 monster.corpse = 6040
 monster.speed = 180
-monster.summonCost = 560
+monster.manaCost = 560
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -47,7 +60,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

@@ -12,7 +12,7 @@ monster.maxHealth = 10000
 monster.race = "undead"
 monster.corpse = 0
 monster.speed = 0
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -61,6 +61,19 @@ monster.loot = {
 monster.defenses = {
 	defense = 33,
 	armor = 28
+}
+
+monster.reflects = {
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_LIFEDRAIN, percent = 20},
+	{type = COMBAT_MANADRAIN, percent = 20},
+	{type = COMBAT_DROWNDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.elements = {

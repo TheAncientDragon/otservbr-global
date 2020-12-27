@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 627
+monster.Bestiary = {
+	class = "Reptile",
+	race = BESTY_RACE_REPTILE,
+	toKill = 1000,
+	FirstUnlock = 50,
+	SecondUnlock = 500,
+	CharmsPoints = 25,
+	Stars = 3,
+	Occurrence = 0,
+	Locations = "Northern Zao Plantations, Souleater Mountains, Muggy Plains, \z
+		Killer Caiman Cave in the Zao Steppe, Chyllfroest."
+	}
+
 monster.health = 1500
 monster.maxHealth = 1500
 monster.race = "blood"
 monster.corpse = 11430
 monster.speed = 230
-monster.summonCost = 0
+monster.manaCost = 0
 monster.maxSummons = 0
 
 monster.changeTarget = {

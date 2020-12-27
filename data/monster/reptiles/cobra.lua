@@ -13,12 +13,26 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 81
+monster.Bestiary = {
+	class = "Reptile",
+	race = BESTY_RACE_REPTILE,
+	toKill = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
+	Occurrence = 0,
+	Locations = "Ankrahmun Library Tomb, Tarpit Tomb, Mountain Tomb, Peninsula Tomb, Darama, Tiquanda, \z
+		Drefia, Forbidden Lands, Arena Quarter, Lion's Rock."
+	}
+
 monster.health = 65
 monster.maxHealth = 65
 monster.race = "blood"
 monster.corpse = 3007
 monster.speed = 120
-monster.summonCost = 275
+monster.manaCost = 275
 monster.maxSummons = 0
 
 monster.changeTarget = {
@@ -47,7 +61,7 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = true,
 	pet = false
 }
 

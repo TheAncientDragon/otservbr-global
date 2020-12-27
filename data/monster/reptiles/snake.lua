@@ -13,12 +13,25 @@ monster.outfit = {
 	lookMount = 0
 }
 
+monster.raceId = 28
+monster.Bestiary = {
+	class = "Reptile",
+	race = BESTY_RACE_REPTILE,
+	toKill = 250,
+	FirstUnlock = 10,
+	SecondUnlock = 100,
+	CharmsPoints = 5,
+	Stars = 1,
+	Occurrence = 0,
+	Locations = "In almost all grassy areas of Tibia. Also found in Rookgaard."
+	}
+
 monster.health = 15
 monster.maxHealth = 15
 monster.race = "blood"
 monster.corpse = 2817
 monster.speed = 120
-monster.summonCost = 205
+monster.manaCost = 205
 monster.maxSummons = 0
 
 monster.changeTarget = {
